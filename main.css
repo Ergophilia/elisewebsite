@@ -1,0 +1,488 @@
+main{
+  width:100%;
+  position: relative;
+    text-align: center;
+}
+
+html{
+  max-width:1440px;
+  margin:0 auto;
+  display:block;
+  font-family: helvetica, sans-serif;
+}
+
+p{
+  line-height: 1.5;
+}
+
+
+/*-------navigation------*/
+header {
+    background-color: #fff;
+
+
+}
+
+.primary-nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-toggler-icon {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.nav-container {
+    width:100%;
+    max-width:1200px;
+}
+
+.navbar-nav {
+    background-color: #fff;
+
+}
+.nav-item {
+    border-bottom: solid #000 2px;
+
+}
+/*------End of Nav----------*/
+
+
+
+
+/*-------Home Page -------*/
+
+
+.frontpage-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 321px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.frontpage-container:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.maintext {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+ top: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/*---- END OF HOME PAGE -----*/
+
+
+
+/*----BANNERS-----*/
+
+
+.description {
+ color: white;
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    top: 72%;
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.info {
+  font-size: 12px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+}
+
+.center {
+    font-size: 12px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    background-color:#3cd1c1;
+}
+
+/*---END OF BANNERS ----*/
+
+
+
+/*---BUTTONS----*/
+
+.button-container{
+     position: absolute;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin: 0 auto;
+    top: 70%;
+    width: 100%;
+}
+
+.button-1 {
+    background-color: #6f98e2;
+}
+
+.button-2 {
+    background-color: #7cf169;
+  
+}
+
+.button-1:hover {
+    background-color: #1048b4;
+}
+
+.button-2:hover {
+    background-color: #1bd803;
+  
+}
+
+#button{
+   width: 90%;
+   border: none;
+   border-radius: 10px;
+    color: white;
+    padding: 8px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+}
+
+
+/*--- END BUTTONS----*/
+
+/*---- SIGN POST ------- */
+
+
+.signpost{
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+  .square {
+      width: 38%;
+    height: 76px;
+    background: #3cd1c1;
+    border-radius: 10px;
+}
+.triangle {
+   width: 0;
+    height: 0;
+    border-top: 45px solid #3cd1c1;
+    border-right: 45px solid transparent;
+    margin-left: 50px;
+}
+
+h1{
+    color: white;
+    padding-top: 18px;
+    padding-left: 18px;
+
+}
+
+
+/*-----FORM------*/
+
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{
+  width:100%;
+  height:24px;
+  border-top:none; border-left:none; border-right:none;
+  
+  border-bottom:1px solid grey;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.first{
+  width:100%;
+  margin-bottom:20px;
+  float:left;
+  margin-right:8px;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.last{
+  width:100%;
+}
+
+input.wpcf7-form-control.wpcf7-submit{
+  width:20%;
+  font-size:20px;
+  background-color:#fff;
+  color:#3cd1c1;
+  border-radius: 4px;
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover{
+  background-color:#3cd1c1;
+  color:#fff;
+}
+
+
+textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required{
+  width:100%;
+}
+
+
+form.wpcf7-form.customize-unpreviewable{
+  width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.form{
+  margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+}
+
+
+/*----END OF FORM----*/
+
+
+
+
+
+/*-----FOOTER-----*/
+
+footer{
+  width: 100%;
+  height: 120px;
+  margin-top: 170px;
+  background-color: #8e8e8e;
+}
+footer p{
+  float: left;
+}
+
+
+/*---END OF FOOTER----*/
+
+@media only screen and (min-width: 720px) {
+  
+    .image{
+    width: 100%;
+    height:500px;
+  }
+   
+  .text{
+    font-size: 100px;
+ 
+ 
+  }
+  
+  .maintext{
+    font-size: 100px;
+  
+  }
+
+  .info{
+    width: 65%;
+    font-size: 16px;
+
+  }
+
+  .center{
+    width: 65%;
+    font-size: 32px;
+
+  }
+  
+    input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.first {
+   width: 48.6%;
+}
+  
+  input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.last {
+    width: 48.7%;
+}
+  
+    .button-container{
+    width:100%;
+    
+}
+    #button{
+      width:40%;
+}
+  
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .image{
+    width: 100%;
+    height:500px;
+  }
+   
+  .text{
+    font-size: 100px;
+
+ 
+ 
+  }
+  
+  .maintext{
+    font-size: 100px;
+
+  }
+
+  .info{
+    width: 65%;
+    font-size: 16px;
+
+  }
+
+  .description {
+    width: 728px;
+    top: 66%;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+  .center{
+    width: 65%;
+    font-size: 16px;
+
+  }
+  
+    input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.first {
+   width: 48.6%;
+}
+  
+  input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.last {
+    width: 48.7%;
+}
+  
+  
+  .button-container{
+    width:100%;
+    top: 75%;
+    
+}
+    #button{
+      width:40%;
+}
+
+  @media only screen and (min-width: 1200px) {
+    .image{
+    width: 100%;
+    height:650px;
+  }
+
+  .text{
+    font-size: 145px;
+ 
+
+  }
+    
+    .maintext{
+    font-size: 145px;
+ 
+  }
+
+  .info{
+    width: 50%;
+
+  }
+
+  .description {
+    width: 100%;
+    top: 70%;
+    font-size: 22px;
+}
+
+  .center{
+    width: 50%;
+    font-size:36px;
+    
+  }
+    
+    input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.first {
+    width: 48.6%;
+}
+  
+  input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.last {
+    width: 49.6%;
+}
+    
+.form{
+  margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+}
+    
+    .button-container{
+    width: 100%;
+    top: 85%;
+    justify-content: center;
+    flex-direction: row;
+  
+}
+    #button{
+      width:264px;
+    
+}
+    
+    .button-1{
+      margin-right:5px;
+}
+    .button-2{
+      margin-left:5px;
+}
+  
+  }
+}
